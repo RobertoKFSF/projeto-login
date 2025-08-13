@@ -1,6 +1,19 @@
 @charset "UTF-8";
 
 
-main {
+body {
     background-image: linear-gradient(#49a09d, #5f2c82);
+    height: 100vh;
+    margin: 0;
+}
+
+#cor {
+    background-color: white;
+    height: 10vh; /* Altura da viewport */
+    width: 10vw;
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Alinha horizontalmente */
+    margin: 0; /* Remove margens padrão do body */
+    border-radius: 10px 10px 10px 10px;
 }

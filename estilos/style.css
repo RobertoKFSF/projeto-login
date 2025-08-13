@@ -9,11 +9,11 @@ body {
 
 #cor {
     background-color: white;
-    height: 10vh; /* Altura da viewport */
-    width: 10vw;
-    display: flex;
-    align-items: center; /* Alinha verticalmente */
-    justify-content: center; /* Alinha horizontalmente */
-    margin: 0; /* Remove margens padrão do body */
+    background-image: url(../imagens/metal.jpg);
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-position: right; /* Posiciona a imagem à direita */
+    height: 35vh; /* Altura da viewport */
+    width: 40vw;
     border-radius: 10px 10px 10px 10px;
+    margin: auto;
 }
